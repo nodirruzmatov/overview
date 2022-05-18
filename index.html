@@ -4,8 +4,239 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.min.css">
-  <title>BOOTSTRAP SCSS BEM STARTER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>overview</title>
 </head>
 <body>
+  
+<main class="main container pt-5 d-flex justify-content-between align-items-stretch">
+
+  <nav class="nav align-self-start d-flex flex-column justify-content-between">
+
+    <a href="#" class="nav__logo">
+      <img src="./images/Logo.png" width="35" height="39" alt="site logo" class="nav__logo-img">
+    </a>
+
+    <ul class="nav__list">
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav1.png" width="21" height="24" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Overview</h3>
+        </a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav2.png" width="24" height="19" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Cloud</h3>
+        </a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav3.png" width="23" height="21" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Sketch</h3>
+        </a>
+      </li>
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav4.png" width="22" height="24" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Experiments</h3>
+        </a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav5.png" width="23" height="24" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Security</h3>
+        </a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav6.png" width="24" height="24" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Ownership</h3>
+        </a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav7.png" width="24" height="24" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">A/B Test</h3>
+        </a>
+      </li>
+
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          <img src="./images/nav8.png" width="24" height="24" alt="nav icon" class="nav__img">
+          <h3 class="nav__heading">Colors</h3>
+        </a>
+      </li>
+
+    </ul>
+
+    <button class="nav__btn align-self-start"><img src="./images/nav9.png" width="21" height="22" alt="exit icon"> Logout</button>
+
+  </nav>
+
+ <!-- !overview -->
+  <section class="overview">
+    <div class="container overview__container d-flex flex-column">
+
+     <div class="d-flex justify-content-between align-items-center">
+      <h2 class="overview__heading">Overview</h2>
+
+      <div class="overview__button d-flex align-items-center">
+        <button class="overview__btn-one border-0"><img src="./images/dots2.png" width="67" height="36" alt="button"></button>
+        <button class="overview__btn">Add</button>
+      </div>
+     </div>
+
+     <div>
+      <table class="overview__table table table-striped">
+
+        <thead>
+          <tr>
+            <th scope="col">Owner</th>
+            <th scope="col">End date</th>
+            <th scope="col">Profits</th>
+            <th scope="col">Losser</th>
+            <th scope="col">Phone</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Savannah Nguyen</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human2.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Jenny Wilson</h3>
+            </th>
+            <td>8/30/14</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human3.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Annette Black</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human4.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Kathryn Murphy</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human5.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Cameron Williamson</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human6.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Kristin Watson</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human7.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Eleanor Pena</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human8.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Guy Hawkins</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human9.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Brooklyn Simmons</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>     
+
+          <tr>
+            <th scope="table__first-col row">
+              <img src="./images/human10.png" width="35" height="35" alt="human">
+              <h3 class="table__heading">Robert Fox</h3>
+            </th>
+            <td>1/15/12</td>
+            <td>$328.85</td>
+            <td>@$779.58</td>
+            <td>@(603) 555-0123</td>
+          </tr>          
+
+        </tbody>
+
+      </table>
+     </div>
+
+     <div class=" align-self-center">
+       <img src="./images/1234.png" width="195" height="35" alt="1234">
+     </div>
+
+      
+
+    </div>
+  </section>
+
+</main>
+
+</body>
 </html>
